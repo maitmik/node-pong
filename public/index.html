@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+ 
+<html>
+ 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-height, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <title>Pong</title>
+    </head>
+ 
+    <body>
+ 	
+		<div id="gameDiv">
+			<p class="playerNr">1<>2</p>
+			
+			<canvas id="myCanvas" style="border:1px solid #000000;" width="500" height="400">
+						 Your browser needs to support canvas for this to work!
+			</canvas>
+			<div id="instructionsDiv"></div>
+		</div>
+		<button id="againButton" style="display: none">Play again!</button>
+		<a href="http://www.html5rocks.com/en/tutorials/device/orientation/devicemotionsample.html">Link</a>
+		
+
+ 	<script src="http://172.20.2.126:8080/socket.io/socket.io.js"></script>
+ 	<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+ 	<script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

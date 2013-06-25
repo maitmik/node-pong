@@ -1,0 +1,19 @@
+body{
+	margin-left: 5px;
+}
+#gameDiv{
+	width: 500px;
+}
+
+#againButton{
+	margin-left: 210px; 
+}
+
+.playerNr{
+	font-size: 3em;
+	text-align: center;
+}
+
+#instructionsDiv{
+	text-align: center;
+}
