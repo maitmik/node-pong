@@ -4,7 +4,7 @@ var socket,
     power = 1;
 
 (function() {
-    var url = "http://172.20.2.126:8080";
+    var url = "http://localhost:8080";
     socket = io.connect(url);
 
     var gameDiv = document.getElementById('gameDiv');
