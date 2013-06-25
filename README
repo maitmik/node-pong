@@ -1,1 +1,10 @@
 My Pong game, that runs on node.js
+
+Localhost should be replaced with computer IP so that you could play from other machines.
+
+First two people who connect to the link can play, others watch.
+
+There are 2 ways to controle the paddle:
+  1. Arrow keys - up and down
+  2. Mobile phone - tilting it up or down
+  (By accelerationg mobile on the x-axis, you can add speed to the ball)
